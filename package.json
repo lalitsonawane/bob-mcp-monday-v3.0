@@ -1,0 +1,17 @@
+{
+  "name": "bob-mcp-monday-v3.0",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Local monday.com Platform MCP wiring for IBM Bob",
+  "scripts": {
+    "mcp": "node ./node_modules/@mondaydotcomorg/monday-api-mcp/dist/index.js",
+    "verify": "./scripts/verify-mcp.sh",
+    "store-token": "./scripts/store-monday-token.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@mondaydotcomorg/monday-api-mcp": "3.3.0"
+  }
+}

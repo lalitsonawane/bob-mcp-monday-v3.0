@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "monday-api-mcp": {
+      "command": "/Users/lalit/Developments/bob-mcp-monday-v3.0/scripts/monday-mcp.sh",
+      "args": ["--enable-dynamic-api-tools", "true"],
+      "disabled": false
+    }
+  }
+}

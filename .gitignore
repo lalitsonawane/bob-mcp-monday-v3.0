@@ -1,0 +1,14 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+monday.env
+**/monday.env
+
+# Dependencies / local
+node_modules/
+.DS_Store
+*.log
+npm-debug.log*
